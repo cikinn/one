@@ -12,6 +12,8 @@ spring:
     show-sql: true  # 是否打印sql
     generate-ddl: true # 是否自动建表
     database: mysql
+  rabbitmq:
+    host: 192.168.12.100
 eureka:
   client:
     service‐url:
