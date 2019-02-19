@@ -2,9 +2,9 @@ server:
   port: 9001
 spring:
   application:
-    name: tensquare-base  # 微服务名称，如果只有单个微服务，服务名称没用。在服务间调用的时候，服务名称非常有用！！！
+    name: car-base  # 微服务名称，如果只有单个微服务，服务名称没用。在服务间调用的时候，服务名称非常有用！！！
   datasource: #数据源
-    url: jdbc:mysql://192.168.12.100:3306/tensquare_base?characterEncoding=UTF8
+    url: jdbc:mysql://192.168.12.100:3306/car_base?characterEncoding=UTF8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
